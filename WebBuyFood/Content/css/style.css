@@ -1,0 +1,108 @@
+/* created by HuynhPV */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: #F3F3F9;
+    color: #76838f;
+    font-family: 'Roboto', sans-serif ;
+}
+.header {
+    background: #fff;
+    /* z- index cang cao thi se de len the co gia tri thap hon  */
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+}
+.header .header-content {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* css cho thanh menu header  */
+.nav-control {
+    width: 30px;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}.nav-control .button-menu-header {
+    /* dung de hien ban  tay  */
+    cursor: pointer; 
+} .line-menu-header {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 6px;
+}
+/* css cho header right  */
+.header-right {
+    float: right;
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+}
+/* 
+ css nay cho action bar 
+*/
+.action-bar-menu {
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    top: 43px;
+    left: -250px;
+    background: #fff;
+    transition: all .5s ease;
+}
+.action-bar-menu ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 18px;
+    color: black;
+    padding-left: 40px;
+    transition: .4s;
+}
+.action-bar-menu ul li:hover a {
+    padding-left: 50px;
+    cursor: pointer;
+}
+.action-bar-menu ul a i {
+    margin-right: 16px;
+}
+.action-bar-menu-hide {
+    left: 0;
+}
+/* css cho content */
+.content {
+    margin: 60px 10px 10px 10px;
+    transition: 0.5s;
+    float: left;
+}
+.content .content-fluid {
+    height: 100%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.content .block-header {
+    padding-top: 20px;
+    margin: 0 !important;
+    color: black !important;
+}
+h2 {
+    font-family: inherit;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+}
+
